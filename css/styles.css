@@ -363,6 +363,7 @@ img {
 
   background: var(--primary-brand);
   border-radius: 50%;
+  fill: var(--light);
 
   display: flex;
   justify-content: center;
@@ -445,6 +446,7 @@ img {
   width: 40px;
   height: 40px;
 
+  fill: var(--light);
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
