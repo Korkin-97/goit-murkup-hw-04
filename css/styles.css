@@ -381,9 +381,9 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--subtle-text);
   border-radius: 4px;
-  fill: var(--customers);
+  fill: var(--subtle-text);
 }
 
 .social-list .item-customers {
@@ -393,8 +393,11 @@ img {
 
 .item-customers .icon-customers:hover,
 .item-customers .icon-customers:focus {
+  border: 1px solid var(--primary-brand);
+  border-radius: 4px;
   fill: var(--primary-brand);
 }
+
 /* wish */
 
 .footer-wish {
